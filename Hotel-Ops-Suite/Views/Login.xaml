@@ -1,4 +1,4 @@
-﻿<Page x:Class="Hotel_Ops_Suite.Views.Login"
+﻿<Page x:Class="Hotel_Ops_Suite.Views.Login" Background="LightBlue"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -9,6 +9,11 @@
       Title="Login">
 
     <Grid>
-        
+        <TextBox HorizontalAlignment="Left" Margin="328,223,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="372,260,0,0" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="330,207,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="328,178,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="328,161,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="318,98,0,0" TextWrapping="Wrap" Text="Employee Sign-In" VerticalAlignment="Top" Height="43" Width="141" FontSize="18"/>
     </Grid>
 </Page>

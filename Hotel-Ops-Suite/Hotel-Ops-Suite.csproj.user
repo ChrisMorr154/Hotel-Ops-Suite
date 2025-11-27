@@ -7,10 +7,22 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Views\FrontDesk.xaml.cs">
+    <Compile Update="ViewModels\Dashboard.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\Login.xaml.cs">
+    <Compile Update="ViewModels\FrontDesk.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\HouseKeeping.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\Kitchen.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\Login.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="ViewModels\Management.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -18,10 +30,22 @@
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\Dashboard.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\FrontDesk.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\HouseKeeping.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Kitchen.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\Login.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Management.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
